@@ -4,13 +4,36 @@
 
 This repository contains comprehensive business and IT strategic planning documents for the TripTrip service - an innovative mobile travel application platform. The project aims to create world-class strategic documentation totaling over 200,000 lines (100,000+ lines for business strategy, 100,000+ lines for IT strategy).
 
-## 毎日の作業開始方法
+## 毎日の作業開始方法（スラッシュコマンド版）
 
-### コーディネーターエージェントの起動
+### 利用可能なスラッシュコマンド
 
-1. **新しいClaudeウィンドウを開く**
+| コマンド | 説明 | 使用タイミング |
+|---------|------|--------------|
+| `/coordinator` | コーディネーターを起動し、本日の2-4個のプロンプトを生成 | 毎朝の作業開始時 |
+| `/progress` | 現在の進捗状況を確認（完了文書数、行数、進捗率） | 進捗確認時 |
+| `/update-index` | 新規作成文書を検出してインデックスを自動更新 | 文書作成後 |
 
-2. **以下のプロンプトを入力**：
+### 作業フロー
+
+1. **朝の作業開始**
+   - Claudeで `/coordinator` と入力
+   - 生成された2-4個のプロンプトを確認
+
+2. **文書作成**
+   - 各プロンプトを新しいClaudeウィンドウにコピペ
+   - 並列で実行（各エージェントが独立して1,200-1,500行の文書を作成）
+
+3. **進捗更新**
+   - 文書作成後、`/update-index` で自動更新
+   - `/progress` で現在の進捗を確認
+
+### 従来の方法（スラッシュコマンドが使えない場合）
+
+<details>
+<summary>クリックして展開</summary>
+
+新しいClaudeウィンドウで以下のプロンプトを入力：
 
 ```
 あなたはTripTrip戦略計画のコーディネーターエージェントです。
@@ -20,15 +43,7 @@ progress-tracking/document-index.mdの進捗を確認して、
 各プロンプトはコピペして別のClaudeウィンドウで実行できる形式で出力してください。
 ```
 
-3. **生成されたプロンプトを実行**
-   - コーディネーターが出力した2-4個のプロンプトを確認
-   - それぞれを新しいClaudeウィンドウにコピペ
-   - 並列で実行（各エージェントが独立して文書作成）
-
-4. **文書生成の確認**
-   - 各エージェントが1,200-1,500行の文書を作成
-   - 完成した文書を指定されたフォルダに保存
-   - progress-tracking/document-index.mdを更新
+</details>
 
 ## Project Structure
 
