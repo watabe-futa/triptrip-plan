@@ -180,28 +180,138 @@
 | Doc-TR-002 | Platform Migration Strategy | Complete | 1438 | Technical | 2026-01-21 |
 | Doc-TR-003 | Technical Debt Management | Complete | 2123 | Technical | 2026-01-20 |
 
+---
+
+### Additional Business Strategy Documents（事業戦略追加：目標+29,000行）
+
+事業戦略は現在71,014行。目標100,000行達成のため、以下を事業戦略として追加。
+**保存先**: business-strategy/ 配下
+
+#### 11-Appendix (補足資料)
+| Document ID | Title | Status | Lines | Agent | Path |
+|-------------|-------|--------|-------|-------|------|
+| Doc-AP-001 | 用語集・略語集（Glossary） | Pending | 0 | Strategy | business-strategy/11-appendix/ |
+| Doc-AP-002 | 業界ベンチマーク・統計データ集 | Pending | 0 | Strategy | business-strategy/11-appendix/ |
+| Doc-AP-003 | 競合プロファイル詳細 | Pending | 0 | Strategy | business-strategy/11-appendix/ |
+| Doc-AP-004 | 法規制・コンプライアンスチェックリスト | Pending | 0 | Finance & Risk | business-strategy/11-appendix/ |
+
+#### 13-Case Studies (ケーススタディ)
+| Document ID | Title | Status | Lines | Agent | Path |
+|-------------|-------|--------|-------|-------|------|
+| Doc-CST-001 | 成功事例分析：Airbnb | Pending | 0 | Strategy | business-strategy/13-case-studies/ |
+| Doc-CST-002 | 成功事例分析：Booking.com | Pending | 0 | Strategy | business-strategy/13-case-studies/ |
+| Doc-CST-003 | 日本市場特化事例：じゃらん/楽天トラベル | Pending | 0 | Strategy | business-strategy/13-case-studies/ |
+
+#### 14-ESG Strategy (サステナビリティ・ESG戦略)
+| Document ID | Title | Status | Lines | Agent | Path |
+|-------------|-------|--------|-------|-------|------|
+| Doc-ESG-001 | サステナビリティ戦略 | Pending | 0 | Strategy | business-strategy/14-esg-strategy/ |
+| Doc-ESG-002 | カーボンニュートラル旅行の促進 | Pending | 0 | Strategy | business-strategy/14-esg-strategy/ |
+| Doc-ESG-003 | 地域コミュニティへの貢献戦略 | Pending | 0 | Business Model | business-strategy/14-esg-strategy/ |
+
+#### 16-Global Expansion (グローバル展開・事業側)
+| Document ID | Title | Status | Lines | Agent | Path |
+|-------------|-------|--------|-------|-------|------|
+| Doc-GL-001 | アジア太平洋市場参入戦略 | Pending | 0 | Strategy | business-strategy/16-global-expansion/ |
+| Doc-GL-002 | 欧米市場参入戦略 | Pending | 0 | Strategy | business-strategy/16-global-expansion/ |
+
+#### 17-Organization & HR (組織・人材戦略)
+| Document ID | Title | Status | Lines | Agent | Path |
+|-------------|-------|--------|-------|-------|------|
+| Doc-HR-001 | 組織設計・組織文化戦略 | Pending | 0 | Implementation | business-strategy/17-organization-hr/ |
+| Doc-HR-002 | 人材獲得・採用戦略 | Pending | 0 | Implementation | business-strategy/17-organization-hr/ |
+| Doc-HR-003 | エンジニアリング組織スケーリング | Pending | 0 | Implementation | business-strategy/17-organization-hr/ |
+
+---
+
+### Additional IT Strategy Documents（IT戦略追加：目標+8,000行）
+
+IT戦略は現在91,998行。目標100,000行達成のため、以下をIT戦略として追加。
+**保存先**: it-strategy/ 配下
+
+#### 11-AI/ML Strategy (AI/ML戦略)
+| Document ID | Title | Status | Lines | Agent | Path |
+|-------------|-------|--------|-------|-------|------|
+| Doc-AI-001 | AI/ML活用戦略（レコメンデーション） | Pending | 0 | Technical | it-strategy/11-ai-ml-strategy/ |
+| Doc-AI-002 | 生成AI統合計画（旅程自動生成） | Pending | 0 | Technical | it-strategy/11-ai-ml-strategy/ |
+| Doc-AI-003 | パーソナライゼーションエンジン設計 | Pending | 0 | Technical | it-strategy/11-ai-ml-strategy/ |
+
+#### 12-Specifications (詳細仕様書)
+| Document ID | Title | Status | Lines | Agent | Path |
+|-------------|-------|--------|-------|-------|------|
+| Doc-SP-001 | API仕様書（エンドポイント一覧） | Pending | 0 | Technical | it-strategy/12-specifications/ |
+| Doc-SP-002 | データベーススキーマ・ERD詳細 | Pending | 0 | Technical | it-strategy/12-specifications/ |
+| Doc-SP-003 | UI/UXデザインシステム仕様 | Pending | 0 | Technical | it-strategy/12-specifications/ |
+| Doc-SP-004 | テストケース一覧・テスト計画詳細 | Pending | 0 | Implementation | it-strategy/12-specifications/ |
+
+#### 13-Global Expansion (多言語対応・技術側)
+| Document ID | Title | Status | Lines | Agent | Path |
+|-------------|-------|--------|-------|-------|------|
+| Doc-GL-003 | 多言語・ローカライゼーション戦略 | Pending | 0 | Technical | it-strategy/13-global-expansion/ |
+
+---
+
+### Documents Requiring Expansion (拡充対象文書)
+
+| Document ID | Title | Current Lines | Target Lines | Gap | Priority | Category |
+|-------------|-------|---------------|--------------|-----|----------|----------|
+| Doc-BM-002 | Value Proposition Canvas | 528 | 1,800 | -1,272 | High | Business |
+| Doc-BM-003 | Revenue Model & Monetization | 821 | 1,800 | -979 | High | Business |
+| Doc-BM-004 | Pricing Strategy | 803 | 1,800 | -997 | High | Business |
+| Doc-RM-002 | Scenario Analysis | 923 | 1,600 | -677 | Medium | Business |
+| Doc-RM-003 | Risk Matrix & EWI | 1,048 | 1,600 | -552 | Medium | Business |
+| Doc-RM-004 | Market Risk | 955 | 1,500 | -545 | Medium | Business |
+| Doc-ES-002 | Business Model Summary | 1,094 | 1,500 | -406 | Low | Business |
+| Doc-FP-001 | Financial Model | 1,116 | 1,500 | -384 | Low | Business |
+| Doc-FP-005 | Path to Profitability | 1,127 | 1,500 | -373 | Low | Business |
+
+**拡充により追加可能な行数**: 約6,185行（全て事業戦略カテゴリ）
+
+---
+
 ## Summary Statistics
 
-| Category | Documents | Target Lines | Current Lines | Completion % |
-|----------|-----------|--------------|---------------|--------------|
-| Business Strategy | 51/51 | 100,000 | 71,014 | 71.01% |
-| IT Strategy | 38/38 | 100,000 | 91,998 | 92.00% |
-| **Total** | **89/89** | **200,000** | **163,012** | **81.51%** |
+### 目標達成計画
+
+| Category | Current | Expansion | New Docs | Target | Gap |
+|----------|---------|-----------|----------|--------|-----|
+| Business Strategy | 71,014 | +6,185 | +22,801+ | 100,000 | 達成可能 |
+| IT Strategy | 91,998 | 0 | +8,002+ | 100,000 | 達成可能 |
+| **TOTAL** | **163,012** | **+6,185** | **+30,803+** | **200,000** | **達成可能** |
+
+### Business Strategy 達成計画（現在71,014行 → 目標100,000行）
+| ステップ | アクション | 追加行数 | 累積 |
+|---------|-----------|----------|------|
+| 1 | 既存文書拡充（9文書） | +6,185 | 77,199行 |
+| 2 | Appendix（4文書） | +8,000 | 85,199行 |
+| 3 | Case Studies（3文書） | +4,500 | 89,699行 |
+| 4 | ESG Strategy（3文書） | +4,500 | 94,199行 |
+| 5 | Global Expansion（2文書） | +4,000 | 98,199行 |
+| 6 | Organization & HR（3文書） | +4,500 | 102,699行 ✅ |
+
+### IT Strategy 達成計画（現在91,998行 → 目標100,000行）
+| ステップ | アクション | 追加行数 | 累積 |
+|---------|-----------|----------|------|
+| 1 | AI/ML Strategy（3文書） | +5,500 | 97,498行 |
+| 2 | Specifications（一部） | +2,502+ | 100,000行 ✅ |
+
+**注**: Specifications全4文書（9,500行）を作成すれば余裕で達成
 
 ## Document Status Legend
 - **Pending**: Not started
 - **In Progress**: Currently being written
 - **Review**: Completed, under review
 - **Complete**: Finalized and approved
+- **Expansion**: 完了済みだが拡充が必要
 
-## Agent Assignment
-- **Strategy Agent**: 14 documents (14 complete) ✅ COMPLETE
-- **Business Model Agent**: 12 documents (12 complete) ✅ COMPLETE
-- **Technical Agent**: 24 documents (24 complete) ✅ COMPLETE
-- **Implementation Agent**: 15 documents (15 complete) ✅ COMPLETE
-- **Finance & Risk Agent**: 14 documents (14 complete) ✅ COMPLETE
+## Agent Assignment (Updated)
+- **Strategy Agent**: 14 complete + 8 pending = 22 documents
+- **Business Model Agent**: 12 complete + 1 pending = 13 documents
+- **Technical Agent**: 24 complete + 6 pending = 30 documents
+- **Implementation Agent**: 15 complete + 4 pending = 19 documents
+- **Finance & Risk Agent**: 14 complete + 1 pending = 15 documents
 
 ---
 
-*Last Updated: 2026-01-20 @ Evening Update（4文書新規完了、全89文書完了）*
-*Version: 2.0.0*
+*Last Updated: 2026-01-20 @ 新規テーマ追加*
+*Version: 3.0.0*

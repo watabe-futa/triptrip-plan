@@ -4,8 +4,12 @@ TripTrip戦略計画プロジェクトの文書インデックスと行数カウ
 
 ### 1. 文書の検出と確認
 以下のディレクトリから新規作成または更新されたMarkdownファイルを検出：
-- `business-strategy/` - 全サブフォルダ
-- `it-strategy/` - 全サブフォルダ
+- `business-strategy/` - 全サブフォルダ（追加セクション11-17含む）
+- `it-strategy/` - 全サブフォルダ（追加セクション11-13含む）
+
+**追加セクションの配置先**:
+- Business Strategy: 11-appendix, 13-case-studies, 14-esg-strategy, 16-global-expansion, 17-organization-hr
+- IT Strategy: 11-ai-ml-strategy, 12-specifications, 13-global-expansion
 
 各ファイルについて：
 - ファイル名から文書IDを特定（例: Doc-MA-001.md）
